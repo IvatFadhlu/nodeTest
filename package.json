@@ -1,0 +1,18 @@
+{
+  "name": "belajar-node-js",
+  "version": "1.0.0",
+  "description": "belajar node js dengan binar",
+  "main": "index.js",
+  "scripts": {
+    "start": "rm log.txt && cp ./index.js log.txt && node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ivat",
+  "license": "ISC",
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
